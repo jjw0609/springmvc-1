@@ -4,7 +4,6 @@ import hello.servlet.domain.member.Member;
 import hello.servlet.domain.member.MemberRepository;
 import hello.servlet.web.frontcontroller.ModelView;
 import hello.servlet.web.frontcontroller.v3.ControllerV3;
-import org.springframework.ui.Model;
 
 import java.util.Map;
 

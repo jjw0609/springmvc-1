@@ -1,9 +1,7 @@
-package hello.springmvc.basic;
+package springmvc.src.main.java.hello.springmvc.basic;
 
-import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LogTestController {
 
-    private final Lo  gger log = LoggerFactory.getLogger(getClass());
+    private final Logger log = LoggerFactory.getLogger(getClass());
 
     @RequestMapping("/log-test")
     public String logTest() {
